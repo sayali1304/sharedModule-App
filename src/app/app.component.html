@@ -1,0 +1,20 @@
+<div
+  style="background-color: aqua; height: auto; height: 100vh"
+  class="center"
+  *ngIf="!hasRoute('home')"
+>
+  <button
+    style="
+      padding: 20px;
+      color: white;
+
+      background-color: rgb(14, 40, 72);
+      cursor: pointer;
+    "
+    routerLink="home"
+  >
+    Load Main Module
+  </button>
+</div>
+
+<router-outlet></router-outlet>

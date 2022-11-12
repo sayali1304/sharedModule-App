@@ -1,0 +1,18 @@
+@use '../../../styles.scss' as m;
+
+.box-row {
+	background-color: m.$faint-blue;
+	clear: both;
+	position: relative;
+}
+.box-row .box-text {
+	display: inline-block;
+	vertical-align: middle;
+	width: 49.7%;
+}
+.box-row .box-image2,
+.box-row .box-image {
+	display: inline-block;
+	vertical-align: middle;
+	width: 49.7%;
+}

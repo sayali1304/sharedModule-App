@@ -1,0 +1,49 @@
+
+@use '../../../styles.scss' as m;
+
+.john-row {
+	background-color: m.$faint-blue;
+	clear: both;
+	position: relative;
+	height: 628px;
+    z-index: -2;
+}
+
+.john h1 {
+	color: m.$light-pink;
+}
+.john .john-col-1 {
+	display: inline-block;
+	width: 52%;
+}
+.snow-man,
+.snow-man2 {
+	left: 257px;
+	position: absolute;
+	top: 60px;
+}
+.snow-man {
+	z-index: -1;
+}
+.snow-man2 {
+	opacity: .15;
+}
+
+.john-photo {
+	bottom: 0;
+	left: 25px;
+	position: absolute;
+	z-index: -1;
+}
+.john .john-col-2 {
+	display: inline-block;
+	padding-top: 168px;
+	text-align: left;
+}
+.about-john .title {
+	font-size: 18px;
+	padding-top: 40px;
+}
+.about-john p {
+	margin: 0;
+}

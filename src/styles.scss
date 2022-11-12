@@ -1,0 +1,78 @@
+
+// primary font
+$primary_font: 'Montserrat', sans-serif;
+// font-weight
+$thin:100;
+$light:300;
+$regular:400;
+$bold:700;
+$black:900;
+// Font size
+$font-xs:12px;
+$font-sm: 14px;
+$primary-fs: 16px;
+$font-md: 18px;
+$font-lg: 20px;
+
+
+$blue: #dadcde;
+$box-color: #dae4ef;
+$black: #000;
+$white: #fff;
+$light-blue: #43a9ff;
+$faint-blue: #f7f8fb;
+$light-pink: #fe3254;
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+html {
+  font-family: $primary_font;
+}
+body {
+  text-align: center;
+}
+h1 {
+  font-size: 36px;
+}
+p {
+  color: $blue;
+  font-size: 16px;
+  line-height: 36px;
+}
+#wrapper {
+  margin: 0 auto;
+  width: 100%;
+}
+#main-content {
+  display: block;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 0 15px;
+}
+.main-button {
+  background-color: $white;
+  border: none;
+  border-radius: 35px;
+  box-shadow: 0 0 65px $box-color;
+  color: $light-blue;
+  font-size: 14px;
+  height: 51px;
+  line-height: 18px;
+  padding: 0;
+  text-transform: uppercase;
+  width: 229px;
+  cursor: pointer;
+
+}

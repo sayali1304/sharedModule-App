@@ -1,0 +1,50 @@
+
+.offer {
+	margin-top: -240px;
+}
+.offer .offer-row {
+	margin: 95px 0 90px;
+}
+.offer .col {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	width: 338px;
+}
+.offer .ico-col1,
+.offer .ico-col2,
+.offer .ico-col3,
+.offer .ico-col4 {
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 47px;
+	margin: 50px auto;
+	width: 50px;
+}
+.offer .ico-col1 {
+	background-image: url(../../../assets/col-ico-1.png);
+}
+.offer .ico-col2 {
+	background-image: url(../../../assets/col-ico-2.png);
+}
+.offer .ico-col3 {
+	background-image: url(../../../assets/col-ico-3.png);
+}
+.offer .ico-col4 {
+	background-image: url(../../../assets/col-ico-4.png);
+}
+.offer p {
+	font-size: 18px;
+}
+.offer .col .title-col {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 40px;
+}
+.offer .col p {
+	font-size: 14px;
+	line-height: 24px;
+}
+.offer .main-button {
+	margin-bottom: 120px;
+}

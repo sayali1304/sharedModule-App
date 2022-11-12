@@ -1,0 +1,75 @@
+@use '../../../styles.scss' as m;
+
+.main-menu {
+	display: inline-block;
+	float: left;
+	margin-top: 57px;
+}
+.circle {
+	border-radius: 50%;
+	box-shadow: 0 0 65px m.$box-color;
+	height: 60px;
+	width: 60px;
+}
+.main-menu .ico-menu .lines {
+	padding-top: 0px;
+}
+.main-menu .ico-menu hr {
+	background-color:m.$black;
+	border: none;
+	height: 2px;
+	width: 18px;
+}
+.main-menu ul li {
+	list-style-type: none;
+}
+.main-logo {
+	display: inline-block;
+}
+.main-logo .logo-circle {
+	border-radius: 65%;
+	box-shadow: 0 0 65px m.$box-color;
+	display: inline-block;
+	height: 414px;
+	margin-top: -207px;
+	width: 414px;
+}
+.main-logo .logo-title {
+	color: m.$light-blue;
+	font-size: 48px;
+	margin-top: -165px;
+	text-transform: uppercase;
+	font-size: xx-large;
+}
+.main-logo .logo-subtitle {
+	color: #e9ebec;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.main-search {
+	display: inline-block;
+	float: right;
+	margin-top: 57px;
+}
+.main-search .ico-search {
+	background-image: url(../../../assets/search.svg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 22px;
+	margin: 19px auto;
+	width: 22px;
+}
+.circle .ico-list {
+	background-image: url(../../../assets/list.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 22px;
+	margin: 19px auto;
+	width: 22px;
+}
+.main-header h1 {
+	margin-top: 17%;
+}
